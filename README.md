@@ -15,3 +15,8 @@
 6.  下面是软件截图
 
 32位的PE文件
+![image]( https://github.com/basketwill/Z0BPcTools/blob/master/3bb384bc9b2d4dcead1fb6cfcf010586.png)
+
+64位的pe文件
+
+![image]( https://github.com/basketwill/Z0BPcTools/blob/master/87d6e42df5571d614eda632e9f974b70.png)
