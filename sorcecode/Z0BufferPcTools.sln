@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Z0BPcTools2", "Z0BPcTools2\Z0BPcTools2.vcxproj", "{159ED274-0392-46A8-9F73-540DE72E9150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug-DLL|Win32 = Debug-DLL|Win32
+		Debug-DLL|x64 = Debug-DLL|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release-DLL|Win32 = Release-DLL|Win32
+		Release-DLL|x64 = Release-DLL|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Debug|Win32.ActiveCfg = Debug|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Debug|Win32.Build.0 = Debug|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Debug|x64.ActiveCfg = Debug|x64
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Debug-DLL|Win32.ActiveCfg = Debug|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Debug-DLL|Win32.Build.0 = Debug|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Debug-DLL|x64.ActiveCfg = Debug|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Release|Win32.ActiveCfg = Release|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Release|Win32.Build.0 = Release|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Release|x64.ActiveCfg = Release|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Release-DLL|Win32.ActiveCfg = Release|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Release-DLL|Win32.Build.0 = Release|Win32
+		{159ED274-0392-46A8-9F73-540DE72E9150}.Release-DLL|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

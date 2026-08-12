@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{159ED274-0392-46A8-9F73-540DE72E9150}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Z0BPcTools2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\build\lib\x86\debug\libudis86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\Build\Lib\x64\Debug\libudis86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\build\lib\x86\release\libudis86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\Build\Lib\x64\Release\libudis86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="bphard.bmp" />
+    <None Include="bpmem.bmp" />
+    <None Include="Break.bmp" />
+    <None Include="breakpoint.bmp" />
+    <None Include="breakpoint.ico" />
+    <None Include="close.bmp" />
+    <None Include="cpuview.bmp" />
+    <None Include="cpuview.ico" />
+    <None Include="handles.bmp" />
+    <None Include="handles.ico" />
+    <None Include="hbpoint.ico" />
+    <None Include="ida.ico" />
+    <None Include="log.bmp" />
+    <None Include="log.ico" />
+    <None Include="membreak.ico" />
+    <None Include="memory.bmp" />
+    <None Include="memory.ico" />
+    <None Include="module.ico" />
+    <None Include="modules.bmp" />
+    <None Include="open.bmp" />
+    <None Include="options.bmp" />
+    <None Include="patches.bmp" />
+    <None Include="pause.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="reference.ico" />
+    <None Include="refers.bmp" />
+    <None Include="restart.bmp" />
+    <None Include="run.bmp" />
+    <None Include="runthread.bmp" />
+    <None Include="small.ico" />
+    <None Include="source.bmp" />
+    <None Include="source.ico" />
+    <None Include="stack.bmp" />
+    <None Include="stack.ico" />
+    <None Include="stepin.bmp" />
+    <None Include="stepover.bmp" />
+    <None Include="thread.ico" />
+    <None Include="threads.bmp" />
+    <None Include="tillret.bmp" />
+    <None Include="tilluser.bmp" />
+    <None Include="trin.bmp" />
+    <None Include="trover.bmp" />
+    <None Include="windows.bmp" />
+    <None Include="windows.ico" />
+    <None Include="Z0BPcTools2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="attachdlg.h" />
+    <ClInclude Include="bpointview.h" />
+    <ClInclude Include="CList.h" />
+    <ClInclude Include="cmdbar.h" />
+    <ClInclude Include="CNtdll.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="cpuview.h" />
+    <ClInclude Include="CStack.h" />
+    <ClInclude Include="custom.h" />
+    <ClInclude Include="customclassview.h" />
+    <ClInclude Include="DbgApi.h" />
+    <ClInclude Include="debugger.h" />
+    <ClInclude Include="dialog.h" />
+    <ClInclude Include="disasmview.h" />
+    <ClInclude Include="disassem.h" />
+    <ClInclude Include="dynamicview.h" />
+    <ClInclude Include="FileHeaderView.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="hardbreak.h" />
+    <ClInclude Include="HexOtcDataView.h" />
+    <ClInclude Include="idaview.h" />
+    <ClInclude Include="Init.h" />
+    <ClInclude Include="logview.h" />
+    <ClInclude Include="mdi.h" />
+    <ClInclude Include="membreak.h" />
+    <ClInclude Include="memoryview.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="moudleview.h" />
+    <ClInclude Include="ollyasmview.h" />
+    <ClInclude Include="referenceview.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="res_str.h" />
+    <ClInclude Include="ReverseView.h" />
+    <ClInclude Include="stackview.h" />
+    <ClInclude Include="statusbar.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="symbol.h" />
+    <ClInclude Include="syshandlesview.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="threadview.h" />
+    <ClInclude Include="toolbar.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="wheel.h" />
+    <ClInclude Include="winbase.h" />
+    <ClInclude Include="winhanleview.h" />
+    <ClInclude Include="wmcommand.h" />
+    <ClInclude Include="Z0BPcTools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="attachdlg.cpp" />
+    <ClCompile Include="bpointview.cpp" />
+    <ClCompile Include="cmdbar.cpp" />
+    <ClCompile Include="CNtdll.cpp" />
+    <ClCompile Include="cpuview.cpp" />
+    <ClCompile Include="custom.cpp" />
+    <ClCompile Include="customclassview.cpp" />
+    <ClCompile Include="DbgApi.cpp" />
+    <ClCompile Include="debugger.cpp" />
+    <ClCompile Include="dialog.cpp" />
+    <ClCompile Include="disasmview.cpp" />
+    <ClCompile Include="disassem.cpp" />
+    <ClCompile Include="dynamicview.cpp" />
+    <ClCompile Include="FileHeaderView.cpp" />
+    <ClCompile Include="hardbreak.cpp" />
+    <ClCompile Include="HexOtcDataView.cpp" />
+    <ClCompile Include="idaview.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="logview.cpp" />
+    <ClCompile Include="mdi.cpp" />
+    <ClCompile Include="membreak.cpp" />
+    <ClCompile Include="memoryview.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="moudleview.cpp" />
+    <ClCompile Include="ollyasmview.cpp" />
+    <ClCompile Include="referenceview.cpp" />
+    <ClCompile Include="ReverseView.cpp" />
+    <ClCompile Include="stackview.cpp" />
+    <ClCompile Include="statusbar.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="symbol.cpp" />
+    <ClCompile Include="syshandlesview.cpp" />
+    <ClCompile Include="threadview.cpp" />
+    <ClCompile Include="toolbar.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="wheel.cpp" />
+    <ClCompile Include="winbase.cpp" />
+    <ClCompile Include="winhanleview.cpp" />
+    <ClCompile Include="wmcommand.cpp" />
+    <ClCompile Include="Z0BPcTools.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Z0BPcTools2.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

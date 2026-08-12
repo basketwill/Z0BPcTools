@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Z0BPcTools2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cpuview.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="open.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="restart.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="close.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="run.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="runthread.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pause.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stepin.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stepover.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="trin.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="trover.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tillret.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tilluser.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="breakpoint.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bpmem.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bphard.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ida.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="threads.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="thread.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="windows.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="handles.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="memory.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="module.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="log.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="reference.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stack.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="breakpoint.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="log.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="modules.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="memory.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="windows.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="handles.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cpuview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="patches.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stack.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Break.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="refers.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="source.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="options.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="membreak.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="hbpoint.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Z0BPcTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mdi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="toolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="statusbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmcommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="res_str.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disassem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idaview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disasmview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="attachdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNtdll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="customclassview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winhanleview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syshandlesview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="moudleview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="referenceview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bpointview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stackview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hardbreak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="membreak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamicview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHeaderView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexOtcDataView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ollyasmview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z0BPcTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="custom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mdi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statusbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wmcommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="disassem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idaview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="disasmview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="attachdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNtdll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threadview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="customclassview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winhanleview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="syshandlesview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memoryview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moudleview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="referenceview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bpointview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stackview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hardbreak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="membreak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHeaderView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HexOtcDataView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ollyasmview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Z0BPcTools2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
